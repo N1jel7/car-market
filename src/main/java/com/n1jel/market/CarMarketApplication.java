@@ -1,4 +1,4 @@
-package com.n1jel.car_market;
+package com.n1jel.market;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,0 +1,22 @@
+spring:
+  liquibase:
+    enabled: true
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/car-market
+    username: root
+    password: 7152025
+
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+
+  application:
+    name: car-market
+logging:
+  level:
+    sql: debug

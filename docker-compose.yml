@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres:13.3
+    environment:
+      POSTGRES_DB: "car-market"
+      POSTGRES_USER: "root"
+      POSTGRES_PASSWORD: "7152025"
+    ports:
+      - "5432:5432"
